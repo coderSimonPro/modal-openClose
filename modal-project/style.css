@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+}
+.container{
+    width: 100%;
+    padding-top: 10rem;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.open-modelBox{
+    width: 500px;
+    height: auto;
+    background-color:orange;
+    border-radius: 8px;
+    text-align: center;
+    padding: 70px;
+    box-sizing: border-box;
+}
+.modal-content{
+    width: 500px;
+    height: auto;
+    background-color:blue;
+    border-radius: 8px;
+    text-align: center;
+    padding: 70px;
+    box-sizing: border-box;
+    position: absolute;
+    visibility: hidden;
+    margin-top: 12rem;
+    transition: 0.3s ease-in;
+}
+.showContent{
+    visibility: visible;
+    animation: popup 0.5s;
+    margin-top: 0;
+}
+.modal-content h3{
+    color: #fff;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 47px;
+}
+.open-modelBox h1{
+    color: #fff;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 47px;
+}
+.btn{
+    background-color: #fff;
+    color: #142b47;
+    border:none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.close-modal{
+    background-color: red;
+    color: #fff;
+}
+.openBtn:hover{
+    background-color: #ccc;
+    color: #000000;
+}
+
+
+
+
